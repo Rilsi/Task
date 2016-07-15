@@ -1,0 +1,36 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  # database: jdt_school
+  #database: inmegh_school
+  #database: inmegh_branches
+  # database: check_from_first
+  database: application
+  port: 5432
+  username: root
+  password: root
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  # database: jdt_school
+  #database: inmegh_school
+  # database: check_from_first
+  database: application
+  port: 5432 
+  username: root
+  password: root
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  # database: jdt_school
+  #database: inmegh_school_doon
+  # database: check_from_first
+  database: application
+  port: 5432 
+  username: root
+  password: root
+  host: localhost
